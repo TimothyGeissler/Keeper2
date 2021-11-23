@@ -1,0 +1,66 @@
+name: new_keeper_2
+description: A new Flutter project.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.0.0-dev.68.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  shared_preferences: "^0.4.1"
+  local_auth: "^0.2.0"
+  material_search: ^0.2.8
+  flutter_string_encryption: ^0.3.1
+
+  cupertino_icons: ^0.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  font_awesome_flutter: ^8.0.1
+
+  flutter_launcher_icons: "^0.7.2"
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icons/icon.jpg"
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+  - assets/login_logo.png
+  - assets/img/long_press.png
+
+  fonts:
+  - family: WorkSansSemiBold
+    fonts:
+    - asset: assets/fonts/Work_Sans/WorkSans-Semibold.ttf
+
+  - family: WorkSansBold
+    fonts:
+    - asset: assets/fonts/Work_Sans/WorkSans-Bold.ttf
+
+  - family: WorkSansMedium
+    fonts:
+    - asset: assets/fonts/Work_Sans/WorkSans-Medium.ttf
+
+  - family: Poppins
+    fonts:
+    - asset: assets/fonts/Poppins/Poppins-Medium.ttf
+      weight: 400
+    - asset: assets/fonts/Poppins/Poppins-Regular.ttf
+      weight: 500
+    - asset: assets/fonts/Poppins/Poppins-SemiBold.ttf
+      weight: 600
+    - asset: assets/fonts/Poppins/Poppins-Light.ttf
+      weight: 300
+    - asset: assets/fonts/Poppins/Poppins-Thin.ttf
+      weight: 200
+
