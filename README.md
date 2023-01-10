@@ -1,8 +1,5 @@
-# new_keeper_2
+# Keeper (Flutter)
 
-A new Flutter project.
+This project is a multi-platform password storage and management application using modern AES encryption standards and biometric authentication. The interface uses a modern, Material design language.
 
-## Getting Started
-
-For help getting started with Flutter, view our online
-[documentation](https://flutter.io/).
+For more information, see: https://timdg.xyz
